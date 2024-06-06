@@ -30,10 +30,8 @@ header > h1{
 .box{
     width: calc((100% / 7) - 32px);
     padding: 1rem;
-    display: flex;
-    justify-content: center;
     background-color: #1389b2;
-    font-size: 1.5rem;
+   
 }
 .m_3{
     background-color: #0cd6a1;
@@ -44,4 +42,10 @@ header > h1{
 
 .m_3_5{
     background-color: #f0466f;
+}
+span{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
 }
