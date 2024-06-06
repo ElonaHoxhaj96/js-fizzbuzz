@@ -24,12 +24,13 @@ header > h1{
     margin: auto;
     display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 /*setting box*/ 
 .box{
-    width: calc(100% / 7);
-    padding: 2rem;
+    width: calc((100% / 7) - 32px);
+    padding: 1rem;
     display: flex;
     justify-content: center;
-
+    background-color: blue;
 }
