@@ -17,3 +17,17 @@ header {
 header > h1{
     font-size: 50px;
 }
+/* setting container  */
+#container{
+    color: white;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*setting box*/ 
+.box{
+    width: calc(100% / 7);
+    padding: 1rem;
+
+}
